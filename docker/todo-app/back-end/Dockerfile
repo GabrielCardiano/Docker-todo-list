@@ -1,6 +1,6 @@
 FROM node:16-alpine
 
-EXPOSE "3001"
+EXPOSE 3001
 
 WORKDIR /app/back-end
 
