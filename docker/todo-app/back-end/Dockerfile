@@ -4,7 +4,7 @@ EXPOSE "3001"
 
 WORKDIR /app/back-end
 
-ADD node_modules.tar.gz ./
+ADD node_modules.tar.gz .
 
 COPY . .
 
