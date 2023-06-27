@@ -1,4 +1,5 @@
 version: '3'
+
 services:
   todotests:
     image: todotests
@@ -6,7 +7,7 @@ services:
       - todofront
       - todoback
     environment:
-      - FRONT_HOST=todofont
+      - FRONT_HOST=todofront
   todofront:
     image: todofrontend
     ports: 
